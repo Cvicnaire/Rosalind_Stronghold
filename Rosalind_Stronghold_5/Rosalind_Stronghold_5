@@ -1,0 +1,11 @@
+# Rosalind problem 5
+# read in a FASTA file and find the id with the highest GC content
+# also print out the percentage of GC content for that id
+
+# Sample dataset is rosa_5ids.fasta
+
+# reading in the FASTA file 
+
+with open('rosa_5ids.fasta') as rosa_ids:
+    
+    print(rosa_ids)
